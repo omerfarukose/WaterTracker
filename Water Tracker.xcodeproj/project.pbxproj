@@ -11,8 +11,9 @@
 		991B55292764849700FC79A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991B55282764849700FC79A1 /* SceneDelegate.swift */; };
 		991B552B2764849700FC79A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991B552A2764849700FC79A1 /* ViewController.swift */; };
 		991B552E2764849700FC79A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991B552C2764849700FC79A1 /* Main.storyboard */; };
-		991B55302764849900FC79A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991B552F2764849900FC79A1 /* Assets.xcassets */; };
 		991B55332764849900FC79A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991B55312764849900FC79A1 /* LaunchScreen.storyboard */; };
+		991B5546276495AD00FC79A1 /* DataStoreSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991B5545276495AD00FC79A1 /* DataStoreSwift.swift */; };
+		99C6AC702764A49900970695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C6AC6F2764A49900970695 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +22,10 @@
 		991B55282764849700FC79A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		991B552A2764849700FC79A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		991B552D2764849700FC79A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		991B552F2764849900FC79A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		991B55322764849900FC79A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		991B55342764849900FC79A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		991B5545276495AD00FC79A1 /* DataStoreSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStoreSwift.swift; sourceTree = "<group>"; };
+		99C6AC6F2764A49900970695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../Downloads/Adim-Adim-Kodla-master/projects/Su Takibi/Final/Su Takibi/Utilities/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				991B55262764849700FC79A1 /* AppDelegate.swift */,
 				991B55282764849700FC79A1 /* SceneDelegate.swift */,
+				991B5545276495AD00FC79A1 /* DataStoreSwift.swift */,
 				991B552A2764849700FC79A1 /* ViewController.swift */,
 				991B552C2764849700FC79A1 /* Main.storyboard */,
-				991B552F2764849900FC79A1 /* Assets.xcassets */,
 				991B55312764849900FC79A1 /* LaunchScreen.storyboard */,
 				991B55342764849900FC79A1 /* Info.plist */,
+				99C6AC6F2764A49900970695 /* Assets.xcassets */,
 			);
 			path = "Water Tracker";
 			sourceTree = "<group>";
@@ -126,7 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				991B55332764849900FC79A1 /* LaunchScreen.storyboard in Resources */,
-				991B55302764849900FC79A1 /* Assets.xcassets in Resources */,
+				99C6AC702764A49900970695 /* Assets.xcassets in Resources */,
 				991B552E2764849700FC79A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +144,7 @@
 				991B552B2764849700FC79A1 /* ViewController.swift in Sources */,
 				991B55272764849700FC79A1 /* AppDelegate.swift in Sources */,
 				991B55292764849700FC79A1 /* SceneDelegate.swift in Sources */,
+				991B5546276495AD00FC79A1 /* DataStoreSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
